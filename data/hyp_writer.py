@@ -21,9 +21,9 @@ if __name__ == '__main__':
             text = f.read()
     
             learning_rates = [0.001, 0.002, 0.005, 0.01, 0.02]
-            box_losses = [0.05, 0.1, 0.15, 0.2]
-            cls_losses = [0.3, 0.4, 0.5, 0.6, 0.7]
-            obj_losses =  [0.6, 0.7, 0.8, 0.9, 1.0]
+            box_losses = [0.05, 0.1, 0.15]
+            cls_losses = [0.25, 0.5, 0.75]
+            obj_losses =  [0.5, 0.75, 1.0]
 
             for i in range(len(learning_rates)):
                 for j in range(len(box_losses)):

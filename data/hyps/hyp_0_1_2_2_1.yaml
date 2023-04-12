@@ -2,8 +2,8 @@
 
 lr0: 0.002  # initial learning rate (SGD=1E-2, Adam=1E-3)
 box: 0.15  # box loss gain
-cls: 0.5  # cls loss gain
-obj: 0.7  # obj loss gain (scale with pixels)
+cls: 0.75  # cls loss gain
+obj: 0.75  # obj loss gain (scale with pixels)
 
 lrf: 0.01  # final OneCycleLR learning rate (lr0 * lrf)
 momentum: 0.937  # SGD momentum/Adam beta1
